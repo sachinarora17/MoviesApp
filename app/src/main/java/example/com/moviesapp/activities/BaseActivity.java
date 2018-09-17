@@ -20,11 +20,11 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     }
 
+    public abstract void setToolbarHeading();
+
     private void initVariables() {
 
         activityBaseBinding = DataBindingUtil.setContentView(this,R.layout.activity_base);
 
     }
-
-    public abstract void setToolbarHeading();
 }
